@@ -1,0 +1,17 @@
+{
+  "name": "taller-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "build": "esbuild main.ts --bundle --outfile=bundle.js --format=iife --target=es2017",
+    "start": "npm run build && npx http-server ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.25.11",
+    "typescript": "^5.9.3"
+  }
+}
